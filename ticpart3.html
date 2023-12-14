@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web teléfonos</title>
+    <link rel="stylesheet" href="14tic.css">
+    <style>
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 10%;
+            margin: 0px;
+            text-align: center;
+            background-color: white; 
+            padding: 0px;
+            border-radius: 100px;
+            color: black;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    
+        .box-container::after {
+            content: "";
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="content sau">
+        <h2 class="tittle">Productos</h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>Iphone 15</h3>
+                <p><img src="normal.jpg" alt=""></p>
+                <p>Precio: 859€</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>Iphone 15 Pro</h3>
+                <p><img src="pro15.png" alt=""></p>
+                <p>Precio: 1099€</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>Iphone 15 pro max</h3>
+                <p><img src="promax15.jpg" alt=""></p>
+                <p>Precio: 1299€</p>
+            </div>
+        </div>
+     
+    </section>
+
+    <section class="content contact">
+        <h2 class="tittle">Tiendas</h2>
+        <p>Número de contacto: 673673669</p>
+        <figure><img src="mapa.png" height="350px" width="100%" alt="mapa"></figure>
+    </section>
+
+</body>
+<a href="index.html">Volver</a>
+<style>
+      a {
+            color: white;
+            text-decoration: none;
+        }
+       
+</style>
+</html>
