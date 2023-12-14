@@ -61,7 +61,7 @@ background:#ffffff;
 
 .header {
     height: 100vh !important;
-    background-image: url(celular.wepb);
+    background: url(moviles.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -123,13 +123,13 @@ p {
 }
 
 .box-container .box {
-    height: 10rem;
-    width: 10rem;
+    height: 25rem;
+    width: 16rem;
     background-color: #777373;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem 5rem #000000;
-    margin: 4rem;
+    margin: 11rem;
    
 
 }
@@ -175,4 +175,10 @@ color: rgb(254, 255, 250);
     padding-top: 20px;
     background: #000000;
     padding-bottom: 0;
+
+
+}
+
+.mapa {
+    background-color: #000000;
 }
